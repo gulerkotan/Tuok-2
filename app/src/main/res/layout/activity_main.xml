@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="444dp"
+        android:layout_height="333dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorWhite"
+        android:drawableTop="@drawable/bus" />
+
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:background="@color/colorGrey3"
+        android:text="Giriş Yap"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="312dp"
+        android:background="@color/colorGrey3"
+        android:text="Kayıt Ol"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitOl">
+
+
+    <Button
+        android:id="@+id/btn_kayit_yasli"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="444dp"
+        android:background="@color/colorGrey3"
+        android:text="65 yaş ve üstü"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_kayit_engelli"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="333dp"
+        android:background="@color/colorGrey3"
+        android:text="Engelli"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_kayit_sivil"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="222dp"
+        android:background="@color/colorGrey3"
+        android:text="Sivil"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_kayit_ogrenci"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:background="@color/colorGrey3"
+        android:text="Öğrenci"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
